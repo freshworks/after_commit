@@ -77,5 +77,5 @@ require 'after_commit/active_record'
 require 'after_commit/connection_adapters'
 require 'after_commit/after_savepoint'
 
-ActiveRecord::Base.send(:include, AfterCommit::ActiveRecord)
-ActiveRecord::Base.include_after_commit_extensions
+#ActiveRecord::Base.send(:include, AfterCommit::ActiveRecord)
+#ActiveRecord::Base.include_after_commit_extensions
